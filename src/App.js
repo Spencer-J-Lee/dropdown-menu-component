@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import classes from './App.module.css';
+import DDMenu from './components/DDMenu/DDMenu';
+import { links1, links2, links3 } from './assets/example-links';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className={classes.App}>
+      <div className={classes.DDMenusWrapper}>
+        <DDMenu text="Menu" links={links1}/>
+        <DDMenu text="Profile" links={links2}/>
+        <DDMenu text="Count" links={links3}/>
+      </div>
     </div>
   );
 }

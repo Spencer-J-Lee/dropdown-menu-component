@@ -1,0 +1,28 @@
+div, ul, li, button, a {
+  padding: 0;
+  margin: 0;
+  outline: 0;
+  border: 0;
+}
+
+ul, li {
+  list-style: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.App {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #6853A6;
+  color: black;
+  font-family: "Open Sans", sans-serif;
+}
+
+.DDMenusWrapper {
+  display: flex;
+  margin-top: 50px;
+}

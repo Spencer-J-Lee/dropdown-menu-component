@@ -1,0 +1,32 @@
+.DDLinks {
+  position: absolute;
+  top: 43px;
+  width: 110px;
+  height: auto;
+  box-shadow: 0 3px 5px 0 rgba(0, 0, 0, 0.4);
+  font-size: 15px;
+}
+
+.DDLinks li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 42px;
+  background-color: #ddd;
+  border-bottom: 1px solid #6853A6;
+  cursor: pointer;
+  transition-property: transform, background-color, box-shadow;
+  transition-duration: 0.1s;
+  transition-timing-function: ease;
+}
+
+.DDLinks li:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 4px 1px rgba(0, 0, 0, 0.2);
+}
+
+.DDLinks a {
+  text-decoration: none;
+  color: black;
+}

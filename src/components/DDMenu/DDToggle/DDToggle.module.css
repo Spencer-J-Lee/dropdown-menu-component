@@ -1,0 +1,19 @@
+.DDToggle { 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 42px;
+  border-bottom: 1px solid #6853A6;
+  position: relative;
+  background-color: #ddd;
+  cursor: pointer;
+}
+
+.DDToggle span {
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.DDToggle:hover {
+  background-color: rgb(197, 186, 229);
+}
